@@ -19,8 +19,8 @@ const numberTwo = Number(prompt('Informe o segundo número: '));
 let sum = numberOne + numberTwo;
 let sub = numberOne - numberTwo;
 let mul = numberOne * numberTwo;
-let div = numberOne / numberTwo;
-let res = numberOne % numberTwo;
+let div = (numberOne / numberTwo).toFixed(2);
+let res = (numberOne % numberTwo).toFixed(2);
 
 let conditionOne = sum % 2 == 0;
 let conditionTwo = numberOne == numberTwo;
